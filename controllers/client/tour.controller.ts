@@ -11,6 +11,7 @@ export const index = async (req: Request, res: Response)=> {
         raw: true
     })
     res.render("clients/pages/tours/index", {
+        pageTitle: "Danh sách tour",
         tours: tours
     })
 }
