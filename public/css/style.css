@@ -59,17 +59,11 @@
     margin: 0 auto;
 }
 
-.inner-images {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
 .inner-image img {
     width: 100%;
-    height: auto;
-    border-radius: 8px;
+    height: 100%;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 
