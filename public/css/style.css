@@ -61,13 +61,18 @@
 
 .inner-images {
     display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 
 .inner-image img {
     width: 100%;
+    height: auto;
     border-radius: 8px;
+    object-fit: cover;
 }
+
+
 
 .inner-title {
     font-size: 24px;
