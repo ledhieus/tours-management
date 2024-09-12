@@ -17,6 +17,30 @@ var imagesThumb = new Swiper(".imagesThumb", {
   });
 // End slider Tour Detail
 
+const alertAddCartSuccess = () => {
+  const alert = document.querySelector("[alert-add-cart-success]")
+  if(alert){
+    alert.classList.remove("alert-hidden")
+    setTimeout(()=> {
+      alert.classList.add("alert-hidden")
+    }, 3000)
+
+    const closeAlert = alert.querySelector("[close-alert]")
+    closeAlert.addEventListener("click", ()=> {
+      alert.classList.add("alert-hidden")
+    })
+  }
+}
+
+
+
+
+
+
+
+
+
+
 //carts
 //Nếu chưa có giỏ hàng thì tạo giỏ hàng
 const cart = localStorage.getItem("cart")
@@ -48,6 +72,7 @@ if(formAddToCart){
       
 
       localStorage.setItem("cart", JSON.stringify(cart))
+      alertAddCartSuccess()
     }
   })
 }
