@@ -46,3 +46,97 @@
     color: green;
 }
 /* end box-head */
+
+/* Tour detail  */
+.tour-detail {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.inner-images {
+    display: flex;
+    gap: 10px;
+}
+
+.inner-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.inner-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.inner-barcode,
+.inner-time-start,
+.inner-stock,
+.inner-price-special,
+.inner-price,
+.inner-percent {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.inner-barcode i,
+.inner-time-start i,
+.inner-stock i {
+    margin-right: 5px;
+}
+
+.inner-price-special {
+    font-size: 20px;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.inner-price {
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #7f8c8d;
+}
+
+.inner-percent {
+    font-size: 14px;
+    color: #27ae60;
+}
+
+form.form-add-to-cart {
+    margin-top: 20px;
+}
+
+input.form-control {
+    width: 80px;
+    display: inline-block;
+}
+
+button.btn {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.inner-infomation {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.inner-label {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.inner-text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+/* End Tour detail  */
